@@ -1,3 +1,17 @@
+6. predict the output
+#include<stdio.h>
+main()
+{
+    char string[]="Hello World";
+display(string);
+}
+void display(char *string)
+{
+printf("%s",string);
+}
+ output :
+ hello world
+ 
 7. Print the following hill pattern , 
 Each line contains n characters = space+number
 When n=5
